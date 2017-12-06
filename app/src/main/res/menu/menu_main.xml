@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.myanmar.myanmarkeyboards.MainActivity">
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/browse"
+        android:icon="@drawable/brow"
+        android:title="Test"/>
+
+    <item
+        app:showAsAction="always"
+        android:id="@+id/refresh"
+        android:icon="@drawable/refresh"
+        android:title="Test"/>
+</menu>

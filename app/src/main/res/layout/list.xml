@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:src="@drawable/ic"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:text="MIUI APK Installer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:padding="5dp"
+        android:background="@drawable/ibg"
+        android:layout_below="@id/tvTitle"
+        android:textColor="#0022ff"
+        android:gravity="bottom"
+        android:layout_alignParentRight="true"
+        android:text="Install"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tvSize"
+        android:layout_marginTop="5dp"
+        android:gravity="bottom"
+        android:layout_marginLeft="10dp"
+        android:text="300MB"
+        android:layout_toRightOf="@id/ivIcon"
+        android:layout_below="@id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
